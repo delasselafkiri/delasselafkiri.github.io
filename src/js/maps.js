@@ -237,7 +237,7 @@ info_2.update = function (props) {
 
 info_2.addTo(map_2);
 
-
+L.control.betterscale().addTo(map_2);
 
 // Ajouter les données geojson à la carte
 
@@ -330,6 +330,8 @@ info_3.update = function () {
 };
 
 info_3.addTo(map_3);
+
+L.control.betterscale().addTo(map_3);
 
 // Assigner les données geojson à la variable incendies_na
 // Notez qu'on ne les ajoute pas directement à la carte
